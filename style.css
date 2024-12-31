@@ -1,0 +1,29 @@
+#nav_brand {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#github {
+    filter: invert(100%);
+}
+
+.hero.is-primary {
+    background-color: #e21833;
+}
+
+.hero .button {
+    background-color: #ffd200;
+    color: #000;
+}
+
+#headshot {
+    width: 20ch;
+    border-radius: 50%;
+    border: 2px solid #ffd200
+}
+
+.project_img {
+    border-radius: 10%;
+    border: 2px solid #ffd200
+}
