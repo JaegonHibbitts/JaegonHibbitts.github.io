@@ -55,7 +55,7 @@
                             <a class="button is-link" href="#experience">View Portfolio</a>
                     </div>
                     <div class="column is-one-third">
-                        <img id="headshot" src="Images/LinkedIn1.jfif" alt="Profile Picture">
+                        <img id="headshot" src="Images/LinkedIn2.JPG" alt="Profile Picture">
                     </div>
                 </div>
             </div>
@@ -86,9 +86,11 @@
                     <p class="title"></p>
 
                     <p class="title is-3">About Me</p>
-                    <p class="subtitle is-6">I am a junior at the University of Maryland studying Mechanical Engineering.
-                        I am interested in both 3D modleing and robotic programming and design. I recently had the oportunity of holding a mechanical engineering internship at Orano TN Fabrication
-                        internship at the Kernersville, NC facility. I am pursuing robotics research at the Neutral Bouyancy Facility at UMD where I will be dealign with design and progam integration.
+                    <p class="subtitle is-6">I am a senior at the University of Maryland studying Mechanical Engineering with a minor in Robotics and 
+                        autonomous Systems. I am interested in robotic programming and design. Last semester I had the opportunity to explore 
+                        robotics research at the Neutral Bouyancy Facility at UMD where I implmeneted higher order control for an Arduino
+                        controlled OTV via serial connection; this enables the robot to be part of the framework already implmeneted at
+                        the Space Systems Lab at UMD. I plan to continue this research and am looking to pursue robotic research post graduate.
                     </p>
                 </div>
             </div>
@@ -98,6 +100,35 @@
 
     <section class="section container" id="experience">
         <h1 class="title">Experience</h1>
+
+        <hr>
+        <article class="experience-item">
+            <h4 class="title is-4 ">Supplier Quality Engineering Intern</h4>
+            <h6 class="subtitle is-6">
+                Volvo Trucks
+                <p class="subtitle is-7">May 2025 - August 2025</p>
+            </h6>
+            <p class="subtitle is-6 is-spaced">
+                As a Supplier Quality Engineer (SQE) Intern at Volvo Trucks, I support cross-functional initiatives to improve supplier performance, 
+                ensure part quality, and streamline reporting processes. I collaborate with SQPs, logistics, and production teams to enhance 
+                traceability, inspection workflows, and issue resolution efforts.
+
+                Key Projects & Responsibilities:
+                - Optimizing weekly supplier sorting data tracking via QLS and internal reporting tools
+                - Developing a centralized OneNote system for SQP team collaboration and issue management
+                - Supporting root cause analysis by collecting supplier traceability data and part-specific details
+                - Assisting in the automation of Inspection Report (IR) alerts to improve SQP responsiveness
+                - Using SAP and internal systems (MACS, GILM) to identify gaps in supplier-part ownership
+                - Monitoring IR assignments to ensure timely ownership and resolution across the team
+
+                Tools & Systems:
+                SAP | QLS | MACS | GILM | Microsoft Excel | OneNote | Teams | PowerPoint
+
+                Impact:
+                Improving supplier communication, reducing delays in issue handling, and supporting Volvo Trucks’ commitment to first-time quality 
+                and continuous improvement across the global supply chain.
+            </p>
+        </article>
         <hr>
         <article class="experience-item">
             <h4 class="title is-4 ">Mechanical Engineering Intern</h4>
@@ -140,6 +171,44 @@
     <section class="section projects">
         <div class="container content">
             <h1 class="title">Projects</h1>
+            <div class="columns is-vcentered">
+                <div class="column is-one-quarter">
+                    <img src="Images/JayBotCAD.png" alt="JayBotCAD" style="max-width: 100%;" class="project_img">
+                </div>
+                <div class="column is-three-quarters">
+                    <h4 class="title">Personal Fully Autonomous Robot</h4>
+                    <p>
+                        I introduce Jaybot. A personal project of mine complete the Summer of 2025 which was design fromscratch utilizing 
+                        a 3D printer for the frame and body and electrical parts found online. Utilizing sonar input with camera (object detection/path planning)
+                        OpenCV, the robot was able to navigate fully autonmously across flat terrains.
+
+                        Future improvments would include: Utilize a prexsisting AI model to process specifc images for robotic movement commands. A microphone for
+                        speech commands. Phyiscal improvments would include stronger axles (metal) and cosmetic improvements (better wire managment, soldered wires, panels)
+                        <p></p><a href="https://docs.google.com/document/d/10BNUCQkdERPXi2wDkhaair_CIdLhf0vcWw2q1w7w2DI/edit?usp=sharing">Link to the build process</a>
+                    </p>
+                </div>
+            </div>
+            <div class="columns is-vcentered">
+                <div class="column is-one-quarter">
+                    <video width="350" height="300" controls>
+                        <source src="Video/Hardware Run Video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="column is-three-quarters">
+                    <h4 class="title">Autonomous maze navigation w/ LIDAR</h4>
+                    <p>
+                       ENAE450 Final Project
+                        ---
+                        The methods we implemented to get our robot moving were first a lidar subscriber and secondly a timed function to control 
+                        the motion of the robot. Our lidar subscribed function would plan the path of the robot with a stateful algorithm, and our 
+                        timed motor controller function would safely execute the routine. With these two functions we were able to smoothly make 
+                        decisions where to direct the robot.
+
+                        <p></p><a href="https://github.com/JaegonHibbitts/enae450-final-project">Link to Project</a>
+                    </p>
+                </div>
+            </div>
             <div class="columns is-vcentered">
                 <div class="column is-one-quarter">
                     <video width="350" height="300" controls>
