@@ -18,8 +18,10 @@
 }
 
 #headshot {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    height: 150px;
     border-radius: 50%;
     border: 2px solid #ffd200;
     object-fit: cover;
@@ -38,4 +40,12 @@
     list-style-type: disc;
     margin-left: 2rem;
     padding-left: 1rem;
+}
+
+.jaybot-video {
+    max-width: 350px;
+    width: 100%;
+    height: 300px; /* Match your desired height */
+    object-fit: contain; /* Show entire video without cropping */
+    /* or object-fit: cover; to fill container, may crop */
 }
