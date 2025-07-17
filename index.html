@@ -49,13 +49,14 @@
                             <hr>  
                             <h3 class = "subtitle2" > Clark James School of Engineering </h3>
                                                   
-                        </h2>
                         
                             <br>
                             <a class="button is-link" href="#experience">View Portfolio</a>
                     </div>
                     <div class="column is-one-third">
-                        <img id="headshot" src="Images/LinkedIn2.JPG" alt="Profile Picture" width = "50" height = "50">
+                        <figure class="image is-128x128">
+                            <img id="headshot" src="Images/LinkedIn2.JPG" alt="Profile Picture">
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -88,7 +89,7 @@
                     <p class="title is-3">About Me</p>
                     <p class="subtitle is-6">I am a senior at the University of Maryland studying Mechanical Engineering with a minor in Robotics and 
                         autonomous Systems. I am interested in robotic programming and design. Last semester I had the opportunity to explore 
-                        robotics research at the Neutral Bouyancy Facility at UMD where I implmeneted higher order control for an Arduino
+                        robotics research at the Neutral Bouyancy Facility at UMD where I implemeneted higher order control for an Arduino
                         controlled OTV via serial connection; this enables the robot to be part of the framework already implmeneted at
                         the Space Systems Lab at UMD. I plan to continue this research and am looking to pursue robotic research post graduate.
                     </p>
@@ -115,7 +116,7 @@
             </p>
             <div class="spacer"></div>  
             <p> Key Projects & Responsibilities: </p>
-            <ul>
+            <ul class="bullet-list">
                 <li>Optimizing weekly supplier sorting data tracking via QLS and internal reporting tools</li>
                 <li>Developing a centralized OneNote system for SQP team collaboration and issue management</li>
                 <li>Supporting root cause analysis by collecting supplier traceability data and part-specific details</li>
@@ -126,10 +127,7 @@
             <div class="spacer"></div>
             <p>Tools & Systems:</p>
             <p>SAP | QLS | MACS | GILM | Microsoft Excel | OneNote | Teams | PowerPoint</p>    
-            <div class="spacer"></div>
-            <p>Impact:</p>
-            <p>Improving supplier communication, reducing delays in issue handling, and supporting Volvo Trucks’ commitment to first-time quality 
-                and continuous improvement across the global supply chain. </p>
+
         </article>
         <hr>
         <article class="experience-item">
@@ -150,7 +148,7 @@
             <h4 class="title is-4 is-s"> Apprentice Mechanic </h4>
             <h6 class="subtitle is-6">
                 J. David Mullinix & Sons
-                <p class="subtitle is-7">March 2023 - Auguest 2023</p>
+                <p class="subtitle is-7">March 2023 - August 2023</p>
             </h6>
             <p> Responsible for the repairing and servicing of small engine tractors ranging from 15cc-600cc. This service includes the ordering and replacement of parts 
                 concerning the vehicle body or engine internals. This service required the use of various power tools for assembly/dissambly. Minimal experience with stick welding.
@@ -165,7 +163,7 @@
             </h6>
             <p> Under Dr. Robert Osiander,  I provided assistance with the NASA Dragonfly Mission, a robotic rotorcraft being built at JHUAPL destined for the surface of Titan. 
                 I helped develop and run MATLAB code to record data for a heat instrument that would determine specific material properties based on the effectiveness of heat transfer.
-
+            </p>
         </article>
         <hr>
     </section>
@@ -176,8 +174,9 @@
             <div class="columns is-vcentered">
                 <div class="column is-one-quarter">
                     <video width="350" height="300" controls>
-                        <source src="JayBot Preview.mp4" type="video/mp4">
+                        <source src="Video/JayBot Preview.mp4" type="video/mp4">
                         Your browser does not suppport the video tag.
+                    </video>
                 </div>
                 <div class="column is-three-quarters">
                     <h4 class="title">Personal Fully Autonomous Robot</h4>
@@ -203,7 +202,6 @@
                     <h4 class="title">Autonomous maze navigation w/ LIDAR</h4>
                     <p>
                         <p>ENAE450 Final Project</p>
-                        <p>---</p>
                         <p>The methods we implemented to get our robot moving were first a lidar subscriber and secondly a timed function to control 
                         the motion of the robot. Our lidar subscribed function would plan the path of the robot with a stateful algorithm, and our 
                         timed motor controller function would safely execute the routine. With these two functions we were able to smoothly make 

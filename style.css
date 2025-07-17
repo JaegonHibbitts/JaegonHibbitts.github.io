@@ -18,17 +18,24 @@
 }
 
 #headshot {
-    width: 20ch;
-    height: 20ch;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    border: 2px solid #ffd200
+    border: 2px solid #ffd200;
+    object-fit: cover;
 }
 
 .project_img {
     border-radius: 10%;
-    border: 2px solid #ff0000
+    border: 2px solid #000000
 }
 
 .spacer {
     margin-bottom: 1.5rem; 
+}
+
+.bullet-list {
+    list-style-type: disc;
+    margin-left: 2rem;
+    padding-left: 1rem;
 }
